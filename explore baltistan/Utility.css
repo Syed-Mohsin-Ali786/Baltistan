@@ -1,0 +1,161 @@
+.imgExploresmall {
+  width: 377px;
+  height: 179px;
+  gap: 0px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.imgExplorelarge {
+  width: 287px;
+  height: 179px;
+  gap: 0px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.fitImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.universal {
+  display: flex;
+  position: relative;
+  top: 32px;
+}
+
+.universaldiv {
+  width: 40vw;
+  text-align: center;
+}
+
+.universalcontainer {
+  display: flex;
+  position: absolute;
+  top: 28%;
+  gap: 18px;
+  align-items: center;
+  left: 100px;
+}
+.universalcontinside {
+  right: 10px;
+  padding: 12px;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  width: 210px;
+  color: white;
+  background: #1c1b1b;
+  box-shadow: 0 0 1px 1px #1c1b1b;
+}
+
+.universalimg {
+  width: 180px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 2px;
+  object-fit: cover;
+  text-wrap: balance;
+}
+
+.universalheadingh3 {
+  text-decoration: underline;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 41.36px;
+  text-align: left;
+  color: rgb(240, 128, 43);
+}
+
+.universalparag {
+  font-family: Ubuntu;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.28px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.historyinside {
+  display: flex;
+  position: relative;
+  gap: 150px;
+  color: white;
+  left: 27px;
+  text-overflow: clip;
+  bottom: 350px;
+}
+
+.filter {
+  filter: brightness(0.5);
+}
+
+.history-btn {
+  top: 40px;
+  width: 180px;
+  z-index: 1;
+}
+
+.skarduFort {
+  width: 623px;
+  height: 320px;
+  top: 3990px;
+  left: 856px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.bashoValley {
+  width: 623px;
+  height: 320px;
+  top: 4490px;
+  left: 116px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.map {
+  position: relative;
+  bottom: 293px;
+}
+
+.historyimg1 {
+  position: relative;
+  right: 18px;
+  bottom: 30px;
+}
+
+.historyheading1 {
+  position: relative;
+  left: 20px;
+}
+
+.historyimg2 {
+  position: relative;
+  right: 8px;
+  top: 30px;
+}
+
+.historyparagh1 {
+  position: relative;
+  left: 30px;
+}
+
+.historyheading2 {
+  position: relative;
+  right: 25px;
+  bottom: 20px;
+}
+
+.historyparagh2 {
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+}
