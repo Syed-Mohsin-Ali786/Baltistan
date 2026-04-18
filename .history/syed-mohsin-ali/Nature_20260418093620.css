@@ -1,0 +1,32 @@
+:root {
+    --neon-cyan: #00f2ff;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+body {
+    background: #0a0a0c; /* Deep space background */
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+.card-glass:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+    transform: scale(1.02);
+}
+
+.glow-text {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
